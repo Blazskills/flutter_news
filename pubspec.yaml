@@ -1,0 +1,42 @@
+name: toistify
+description: A new Flutter project.
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0-155.0.dev <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts:
+  flutter_screenutil:
+  hooks_riverpod: ^2.3.7
+  riverpod_annotation:
+  connectivity:
+
+
+  cupertino_icons: ^1.0.2
+  flutter_vector_icons: ^2.0.0
+  http: ^1.1.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  build_runner:
+  riverpod_generator:
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
