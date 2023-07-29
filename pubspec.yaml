@@ -14,12 +14,13 @@ dependencies:
   hooks_riverpod: ^2.3.7
   riverpod_annotation:
   connectivity:
+  intl:
+  # go_router: ^5.2.0
 
 
   cupertino_icons: ^1.0.2
   flutter_vector_icons: ^2.0.0
   http: ^1.1.0
-
 
 dev_dependencies:
   flutter_test:
