@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 
 class SignIn extends StatelessWidget {
   const SignIn({super.key});
@@ -8,7 +9,24 @@ class SignIn extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(),
       body: Container(
-        child: const Text('Sign In Page'),
+        child: Column(
+          children: [
+            const Text('Sign In Page'),
+            ElevatedButton(
+              // onPressed: () => GoRouter.of(context).go('/register'),
+              onPressed: () =>
+                  GoRouter.of(context).pushReplacement('/register'),
+
+              child: const Text('register page'),
+            ),
+            
+            ElevatedButton(
+              // onPressed: () => GoRouter.of(context).go('/signin'),
+              onPressed: () => GoRouter.of(context).pushReplacement('/'),
+              child: const Text('Home page'),
+            ),
+          ],
+        ),
       ),
     );
   }

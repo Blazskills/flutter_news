@@ -4,6 +4,8 @@
         "Grotesk",
         "Ionicons",
         "openai",
+        "pricetags",
+        "signin",
         "toistify"
     ]
 }

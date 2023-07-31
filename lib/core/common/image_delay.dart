@@ -4,7 +4,7 @@ class DelayedImageLoader extends StatefulWidget {
   final String imageUrl;
   final String placeholderImage;
 
-  DelayedImageLoader({required this.imageUrl, required this.placeholderImage});
+  const DelayedImageLoader({super.key, required this.imageUrl, required this.placeholderImage});
 
   @override
   _DelayedImageLoaderState createState() => _DelayedImageLoaderState();
@@ -17,7 +17,7 @@ class _DelayedImageLoaderState extends State<DelayedImageLoader> {
   void initState() {
     super.initState();
     // Add a delay of 1 second before showing the image
-    Future.delayed(Duration(seconds: 1), () {
+    Future.delayed(const Duration(seconds: 1), () {
       if (mounted) {
         setState(() {
           _showPlaceholder = false;

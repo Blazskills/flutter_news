@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:toistify/core/common/routes/app_route_constants.dart';
+import 'package:go_router/go_router.dart';
 
 class ExplorePage extends StatelessWidget {
   const ExplorePage({super.key});
@@ -15,7 +15,10 @@ class ExplorePage extends StatelessWidget {
             ElevatedButton(
                 onPressed: () {
                   print('clicked');
-                  //  GoRouter.of(context).pushNamed(MyAppRouteConstants.savedRouteName);
+              // context.goNamed(MyAppRouteConstants.homeRouteName);
+
+                   GoRouter.of(context).push('/');
+                  //  GoRouter.of(context).go('/saved');
                 },
                 child: const Text('go to saved home page'))
           ],

@@ -40,63 +40,63 @@ class DashBoardPage extends ConsumerWidget {
           ),
         ],
       ),
-      drawer: Drawer(
-        surfaceTintColor: Colors.black,
-        child: ListView(
-          padding: EdgeInsets.zero,
-          children: const [
-            UserAccountsDrawerHeader(
-              decoration: BoxDecoration(color: Color(0xFF517da2)),
-              accountName: Text('Temitope'),
-              accountEmail: Text('ilesanmiissac@gmail.com'),
-              currentAccountPicture: CircleAvatar(
-                foregroundImage: AssetImage(ImageRes.profile),
-              ),
-            ),
-            ListTile(
-              title: Text('New Group'),
-              leading: Icon(Ionicons.people_outline),
-              trailing: Icon(Ionicons.arrow_forward),
-            ),
-            ListTile(
-              title: Text('Contact'),
-              leading: Icon(Ionicons.person_outline),
-              trailing: Icon(Ionicons.arrow_forward),
-            ),
-            ListTile(
-              title: Text('Call'),
-              leading: Icon(Ionicons.call_outline),
-              trailing: Icon(Ionicons.arrow_forward),
-            ),
-            ListTile(
-              title: Text('People Near'),
-              leading: Icon(Ionicons.map_outline),
-              trailing: Icon(Ionicons.arrow_forward),
-            ),
-            ListTile(
-              title: Text('Saved Messages'),
-              leading: Icon(Ionicons.bookmark_outline),
-              trailing: Icon(Ionicons.arrow_forward),
-            ),
-            Divider(),
-            ListTile(
-              title: Text('Invite Friends'),
-              leading: Icon(Ionicons.person_add_outline),
-              trailing: Icon(Ionicons.arrow_forward),
-            ),
-            ListTile(
-              title: Text('Toistify Features'),
-              leading: Icon(Ionicons.help_outline),
-              trailing: Icon(Ionicons.arrow_forward),
-            ),
-            ListTile(
-              title: Text('Sign In'),
-              leading: Icon(Ionicons.log_in_outline),
-              trailing: Icon(Ionicons.arrow_forward),
-            ),
-          ],
-        ),
-      ),
+      // drawer:Drawer(
+      //   surfaceTintColor: Colors.black,
+      //   child: ListView(
+      //     padding: EdgeInsets.zero,
+      //     children: const [
+      //       UserAccountsDrawerHeader(
+      //         decoration: BoxDecoration(color: Color(0xFF517da2)),
+      //         accountName: Text('Temitope'),
+      //         accountEmail: Text('ilesanmiissac@gmail.com'),
+      //         currentAccountPicture: CircleAvatar(
+      //           foregroundImage: AssetImage(ImageRes.profile),
+      //         ),
+      //       ),
+      //       ListTile(
+      //         title: Text('New Group'),
+      //         leading: Icon(Ionicons.people_outline),
+      //         trailing: Icon(Ionicons.arrow_forward),
+      //       ),
+      //       ListTile(
+      //         title: Text('Contact'),
+      //         leading: Icon(Ionicons.person_outline),
+      //         trailing: Icon(Ionicons.arrow_forward),
+      //       ),
+      //       ListTile(
+      //         title: Text('Call'),
+      //         leading: Icon(Ionicons.call_outline),
+      //         trailing: Icon(Ionicons.arrow_forward),
+      //       ),
+      //       ListTile(
+      //         title: Text('People Near'),
+      //         leading: Icon(Ionicons.map_outline),
+      //         trailing: Icon(Ionicons.arrow_forward),
+      //       ),
+      //       ListTile(
+      //         title: Text('Saved Messages'),
+      //         leading: Icon(Ionicons.bookmark_outline),
+      //         trailing: Icon(Ionicons.arrow_forward),
+      //       ),
+      //       Divider(),
+      //       ListTile(
+      //         title: Text('Invite Friends'),
+      //         leading: Icon(Ionicons.person_add_outline),
+      //         trailing: Icon(Ionicons.arrow_forward),
+      //       ),
+      //       ListTile(
+      //         title: Text('Toistify Features'),
+      //         leading: Icon(Ionicons.help_outline),
+      //         trailing: Icon(Ionicons.arrow_forward),
+      //       ),
+      //       ListTile(
+      //         title: Text('Sign In'),
+      //         leading: Icon(Ionicons.log_in_outline),
+      //         trailing: Icon(Ionicons.arrow_forward),
+      //       ),
+      //     ],
+      //   ),
+      // ),
       body: SingleChildScrollView(
         // controller: controller,
         child: Padding(

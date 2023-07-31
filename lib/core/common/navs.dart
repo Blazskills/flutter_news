@@ -26,14 +26,14 @@ class MyNavigation extends ConsumerWidget {
           activeIcon: Icon(Ionicons.home),
         ),
         BottomNavigationBarItem(
-          icon: Icon(Ionicons.wifi_outline),
+          icon: Icon(Ionicons.navigate_outline),
           label: 'Explore',
-          activeIcon: Icon(Ionicons.wifi),
+          activeIcon: Icon(Ionicons.navigate),
         ),
         BottomNavigationBarItem(
-          icon: Icon(Ionicons.bookmark_outline),
-          label: 'Saved',
-          activeIcon: Icon(Ionicons.bookmark),
+          icon: Icon(Ionicons.images_outline),
+          label: 'Stories',
+          activeIcon: Icon(Ionicons.images),
         ),
         BottomNavigationBarItem(
           icon: Icon(Ionicons.person_outline),
