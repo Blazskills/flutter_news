@@ -35,6 +35,7 @@ class MyAppRouter {
         path: '/',
         name: MyAppRouteConstants.homeRouteName,
         builder: (context, state) => const MainNavigation(),
+        // builder: (context, state) => const DashBoardPage(),
         // routes: [
         //   GoRoute(
         //     path: 'settings',
